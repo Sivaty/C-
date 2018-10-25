@@ -35,6 +35,10 @@
 
 using std::cout;
 using std::endl;
+using std::cin;
 int main() {
     cout << "hello" << endl;
+    int a,b;
+    cin >> a >> b ;
+    cout << "a:" << a << endl << "b:" << b << endl;
 }
